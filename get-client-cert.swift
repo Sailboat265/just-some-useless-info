@@ -1,4 +1,6 @@
 // Example code to import p12 client certificate and returns it to the string.
+// Reference code taken from aLosada_7, link : https://developer.apple.com/forums/profile/aLosada_7
+// Original thread: https://developer.apple.com/forums/thread/657822
 
 func GetCert() -> URLCredential {
     let pathToCert = Bundle.main.path(forResource: "your-cert-file-name", ofType: "p12")
